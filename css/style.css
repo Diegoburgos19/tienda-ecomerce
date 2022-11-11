@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+#html{
+    scroll-behavior: smooth;
+}
+
+header .contenido-header{
+    font-family:'Montserrat', sans-serif; ;
+    display: flex;
+    background: rgb(0, 0, 0);
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+}
+.contenido-header a{
+    text-decoration: none;
+}
+.contenido-header .logo{
+    display: flex;   
+    align-items: center;
+}
+.contenido-header .logo img{
+    height: 90px;
+    margin-left: 10px;
+    margin-right: -15px;
+}
+
+.contenido-header h1{
+    color: #f30db6;
+}
+.contenido-header span{
+    color: rgb(105, 215, 232);
+}
+.contenido-header nav ul {
+    list-style: none;
+    display: flex;
+}
+.contenido-header nav ul a{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+    margin:0 15px;
+    color: rgb(237, 237, 237);
+}
+.contenido-header nav ul a:hover{
+    color: #69d7e8;
+}
+.contenido-header .formulario button{
+    display: block;
+    border-radius: 35px;
+    font-weight: 600;
+    background-color: #f30db6;
+    padding: 8px 15px;
+    margin: 0px 0px;
+
+}
+.contenido-header .formulario h2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.buscar input{
+    width: 0px;
+    height:35px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 0 20px;
+    transition: all 0.6s ease;
+    box-sizing: border-box;
+}
+ .buscar .btn{
+    position: absolute;
+    top: 0;
+    right: 1;
+    height: 30px;
+    width: 30px;
+    line-height: 80px;
+    text-align: center;
+    color: #ddd4d4;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn i {
+    font-size: 20px;
+    color: #000000;
+    line-height: 80px;
+    transition: all .7 ease;
+}
+
+.buscar:hover input{
+    width: 240px;
+}
+.buscar input:focus{
+    width: 240px;
+}
+.contenido-header .redes a i{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    display: inline-block;
+}
+#presentacion{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.333),rgb(0, 0, 0)), url(/imagenes/fondo.png);
+    background-size: cover;
+    margin: 0;
+    padding: 100px;
+}
+#presentacion .presentacion-conte {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+#presentacion .presentacion-conte h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+#presentacion .presentacion-conte p{
+    color: #ffffff;
+    font-size: 25px;
+}
+#presentacion .presentacion-conte span{
+    color: #f30db6;
+}
+#presentacion .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 30px auto;
+}
+#presentacion img{
+    width: 90%;
+}
+#presentacion h4{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0px 140px;
+}
+#presentacion hr{
+    width: 90%;
+}
+#presentacion button{
+    display: block;
+    border-radius: 35px;
+    font-weight: 600;
+    background-color: #329eea;
+    padding: 10px 20px;
+    margin: 30px 90px;
+}
+#presentacion a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+#productos {
+    margin: 0 56px;
+}
+#productos .productos-mejor img{
+    padding: 35px;
+    width: 176px;
+    height: 174px;
+    flex: center;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
