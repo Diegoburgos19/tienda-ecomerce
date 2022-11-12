@@ -65,6 +65,10 @@ header .contenido-header{
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
+.buscar{
+    position: relative;
+}
+
 .buscar input{
     width: 0px;
     height:35px;
@@ -80,20 +84,20 @@ header .contenido-header{
  .buscar .btn{
     position: absolute;
     top: 0;
-    right: 1;
+    right: 0;
     height: 30px;
     width: 30px;
-    line-height: 80px;
     text-align: center;
     color: #ddd4d4;
     font-size: 20px;
     cursor: pointer;
-
+    margin-top: 8px;
+    margin-right: 7px;
+    
 }
 .btn i {
     font-size: 20px;
     color: #000000;
-    line-height: 80px;
     transition: all .7 ease;
 }
 
@@ -109,7 +113,7 @@ header .contenido-header{
     display: inline-block;
 }
 #presentacion{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.333),rgb(0, 0, 0)), url(/imagenes/fondo.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imagenes/fondo.png");
     background-size: cover;
     margin: 0;
     padding: 100px;
