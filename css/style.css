@@ -7,7 +7,9 @@
 #html{
     scroll-behavior: smooth;
 }
-
+body{
+    background-color: #FFFFFF;
+}
 header .contenido-header{
     font-family:'Montserrat', sans-serif; ;
     display: flex;
@@ -214,7 +216,7 @@ header .contenido-header{
     border: 2px solid #f30db6;
 }
 #productos i{
-    color: #69d7e8;
+    color: #329EEA;
 }
 #productos .ful-img{
     width: 100%;
